@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F66AD6B1D4070A3001BD45C /* the_hound.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6A1D4070A3001BD45C /* the_hound.png */; };
+		8F66AD6D1D4074EE001BD45C /* white_walker.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6C1D4074EE001BD45C /* white_walker.png */; };
+		8F66AD6F1D4077BC001BD45C /* cersei.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6E1D4077BC001BD45C /* cersei.png */; };
+		8F66AD711D4077C3001BD45C /* dany.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD701D4077C3001BD45C /* dany.png */; };
+		8F66AD731D40784F001BD45C /* whiteWalkerHands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD721D40784F001BD45C /* whiteWalkerHands.png */; };
+		8F66AD751D4079A9001BD45C /* littleFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD741D4079A9001BD45C /* littleFinger.jpg */; };
+		8F66AD771D407CB7001BD45C /* drogon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD761D407CB7001BD45C /* drogon.png */; };
+		8F66AD791D407D61001BD45C /* throne.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD781D407D61001BD45C /* throne.png */; };
+		8FA901F81D3FBB3F001103DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA901F71D3FBB3F001103DA /* AppDelegate.swift */; };
+		8FA901FA1D3FBB3F001103DA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FA901F91D3FBB3F001103DA /* GameScene.sks */; };
+		8FA901FC1D3FBB3F001103DA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA901FB1D3FBB3F001103DA /* GameScene.swift */; };
+		8FA901FE1D3FBB3F001103DA /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA901FD1D3FBB3F001103DA /* GameViewController.swift */; };
+		8FA902011D3FBB3F001103DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA901FF1D3FBB3F001103DA /* Main.storyboard */; };
+		8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902021D3FBB3F001103DA /* Assets.xcassets */; };
+		8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */; };
+		8FA902111D3FBB3F001103DA /* MazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA902101D3FBB3F001103DA /* MazeTests.swift */; };
+		8FA9021C1D3FBB3F001103DA /* MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FA9020D1D3FBB3F001103DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA901EC1D3FBB3F001103DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA901F31D3FBB3F001103DA;
+			remoteInfo = Maze;
+		};
+		8FA902181D3FBB3F001103DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FA901EC1D3FBB3F001103DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FA901F31D3FBB3F001103DA;
+			remoteInfo = Maze;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8F66AD6A1D4070A3001BD45C /* the_hound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_hound.png; sourceTree = "<group>"; };
+		8F66AD6C1D4074EE001BD45C /* white_walker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_walker.png; sourceTree = "<group>"; };
+		8F66AD6E1D4077BC001BD45C /* cersei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cersei.png; sourceTree = "<group>"; };
+		8F66AD701D4077C3001BD45C /* dany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dany.png; sourceTree = "<group>"; };
+		8F66AD721D40784F001BD45C /* whiteWalkerHands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteWalkerHands.png; sourceTree = "<group>"; };
+		8F66AD741D4079A9001BD45C /* littleFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littleFinger.jpg; sourceTree = "<group>"; };
+		8F66AD761D407CB7001BD45C /* drogon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drogon.png; sourceTree = "<group>"; };
+		8F66AD781D407D61001BD45C /* throne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = throne.png; sourceTree = "<group>"; };
+		8FA901F41D3FBB3F001103DA /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA901F71D3FBB3F001103DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FA901F91D3FBB3F001103DA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		8FA901FB1D3FBB3F001103DA /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8FA901FD1D3FBB3F001103DA /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8FA902001D3FBB3F001103DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FA902021D3FBB3F001103DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FA902051D3FBB3F001103DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FA902071D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA9020C1D3FBB3F001103DA /* MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA902101D3FBB3F001103DA /* MazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeTests.swift; sourceTree = "<group>"; };
+		8FA902121D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA902171D3FBB3F001103DA /* MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeUITests.swift; sourceTree = "<group>"; };
+		8FA9021D1D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FA901F11D3FBB3F001103DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA902091D3FBB3F001103DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA902141D3FBB3F001103DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FA901EB1D3FBB3F001103DA = {
+			isa = PBXGroup;
+			children = (
+				8FA901F61D3FBB3F001103DA /* Maze */,
+				8FA9020F1D3FBB3F001103DA /* MazeTests */,
+				8FA9021A1D3FBB3F001103DA /* MazeUITests */,
+				8FA901F51D3FBB3F001103DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FA901F51D3FBB3F001103DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FA901F41D3FBB3F001103DA /* Maze.app */,
+				8FA9020C1D3FBB3F001103DA /* MazeTests.xctest */,
+				8FA902171D3FBB3F001103DA /* MazeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FA901F61D3FBB3F001103DA /* Maze */ = {
+			isa = PBXGroup;
+			children = (
+				8FA901F71D3FBB3F001103DA /* AppDelegate.swift */,
+				8FA901F91D3FBB3F001103DA /* GameScene.sks */,
+				8FA901FB1D3FBB3F001103DA /* GameScene.swift */,
+				8FA901FD1D3FBB3F001103DA /* GameViewController.swift */,
+				8FA901FF1D3FBB3F001103DA /* Main.storyboard */,
+				8FA902021D3FBB3F001103DA /* Assets.xcassets */,
+				8F66AD6C1D4074EE001BD45C /* white_walker.png */,
+				8F66AD741D4079A9001BD45C /* littleFinger.jpg */,
+				8F66AD701D4077C3001BD45C /* dany.png */,
+				8F66AD781D407D61001BD45C /* throne.png */,
+				8F66AD721D40784F001BD45C /* whiteWalkerHands.png */,
+				8F66AD761D407CB7001BD45C /* drogon.png */,
+				8F66AD6E1D4077BC001BD45C /* cersei.png */,
+				8F66AD6A1D4070A3001BD45C /* the_hound.png */,
+				8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */,
+				8FA902071D3FBB3F001103DA /* Info.plist */,
+			);
+			path = Maze;
+			sourceTree = "<group>";
+		};
+		8FA9020F1D3FBB3F001103DA /* MazeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA902101D3FBB3F001103DA /* MazeTests.swift */,
+				8FA902121D3FBB3F001103DA /* Info.plist */,
+			);
+			path = MazeTests;
+			sourceTree = "<group>";
+		};
+		8FA9021A1D3FBB3F001103DA /* MazeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */,
+				8FA9021D1D3FBB3F001103DA /* Info.plist */,
+			);
+			path = MazeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FA901F31D3FBB3F001103DA /* Maze */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA902201D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "Maze" */;
+			buildPhases = (
+				8FA901F01D3FBB3F001103DA /* Sources */,
+				8FA901F11D3FBB3F001103DA /* Frameworks */,
+				8FA901F21D3FBB3F001103DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Maze;
+			productName = Maze;
+			productReference = 8FA901F41D3FBB3F001103DA /* Maze.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FA9020B1D3FBB3F001103DA /* MazeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA902231D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "MazeTests" */;
+			buildPhases = (
+				8FA902081D3FBB3F001103DA /* Sources */,
+				8FA902091D3FBB3F001103DA /* Frameworks */,
+				8FA9020A1D3FBB3F001103DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA9020E1D3FBB3F001103DA /* PBXTargetDependency */,
+			);
+			name = MazeTests;
+			productName = MazeTests;
+			productReference = 8FA9020C1D3FBB3F001103DA /* MazeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FA902161D3FBB3F001103DA /* MazeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FA902261D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "MazeUITests" */;
+			buildPhases = (
+				8FA902131D3FBB3F001103DA /* Sources */,
+				8FA902141D3FBB3F001103DA /* Frameworks */,
+				8FA902151D3FBB3F001103DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FA902191D3FBB3F001103DA /* PBXTargetDependency */,
+			);
+			name = MazeUITests;
+			productName = MazeUITests;
+			productReference = 8FA902171D3FBB3F001103DA /* MazeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FA901EC1D3FBB3F001103DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ehsan Zaman";
+				TargetAttributes = {
+					8FA901F31D3FBB3F001103DA = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = GLPY7EJHQF;
+					};
+					8FA9020B1D3FBB3F001103DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8FA901F31D3FBB3F001103DA;
+					};
+					8FA902161D3FBB3F001103DA = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 8FA901F31D3FBB3F001103DA;
+					};
+				};
+			};
+			buildConfigurationList = 8FA901EF1D3FBB3F001103DA /* Build configuration list for PBXProject "Maze" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FA901EB1D3FBB3F001103DA;
+			productRefGroup = 8FA901F51D3FBB3F001103DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FA901F31D3FBB3F001103DA /* Maze */,
+				8FA9020B1D3FBB3F001103DA /* MazeTests */,
+				8FA902161D3FBB3F001103DA /* MazeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FA901F21D3FBB3F001103DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA901FA1D3FBB3F001103DA /* GameScene.sks in Resources */,
+				8F66AD791D407D61001BD45C /* throne.png in Resources */,
+				8F66AD6D1D4074EE001BD45C /* white_walker.png in Resources */,
+				8F66AD6B1D4070A3001BD45C /* the_hound.png in Resources */,
+				8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */,
+				8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */,
+				8F66AD731D40784F001BD45C /* whiteWalkerHands.png in Resources */,
+				8F66AD751D4079A9001BD45C /* littleFinger.jpg in Resources */,
+				8FA902011D3FBB3F001103DA /* Main.storyboard in Resources */,
+				8F66AD6F1D4077BC001BD45C /* cersei.png in Resources */,
+				8F66AD771D407CB7001BD45C /* drogon.png in Resources */,
+				8F66AD711D4077C3001BD45C /* dany.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA9020A1D3FBB3F001103DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA902151D3FBB3F001103DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FA901F01D3FBB3F001103DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA901FC1D3FBB3F001103DA /* GameScene.swift in Sources */,
+				8FA901FE1D3FBB3F001103DA /* GameViewController.swift in Sources */,
+				8FA901F81D3FBB3F001103DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA902081D3FBB3F001103DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA902111D3FBB3F001103DA /* MazeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FA902131D3FBB3F001103DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FA9021C1D3FBB3F001103DA /* MazeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FA9020E1D3FBB3F001103DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA901F31D3FBB3F001103DA /* Maze */;
+			targetProxy = 8FA9020D1D3FBB3F001103DA /* PBXContainerItemProxy */;
+		};
+		8FA902191D3FBB3F001103DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FA901F31D3FBB3F001103DA /* Maze */;
+			targetProxy = 8FA902181D3FBB3F001103DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FA901FF1D3FBB3F001103DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA902001D3FBB3F001103DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FA902051D3FBB3F001103DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FA9021E1D3FBB3F001103DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FA9021F1D3FBB3F001103DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FA902211D3FBB3F001103DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Maze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		8FA902221D3FBB3F001103DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Maze/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.Maze";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		8FA902241D3FBB3F001103DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze.app/Maze";
+			};
+			name = Debug;
+		};
+		8FA902251D3FBB3F001103DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MazeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.MazeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Maze.app/Maze";
+			};
+			name = Release;
+		};
+		8FA902271D3FBB3F001103DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = MazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Maze;
+			};
+			name = Debug;
+		};
+		8FA902281D3FBB3F001103DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MazeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Ehsan-Zaman.MazeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Maze;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FA901EF1D3FBB3F001103DA /* Build configuration list for PBXProject "Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA9021E1D3FBB3F001103DA /* Debug */,
+				8FA9021F1D3FBB3F001103DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA902201D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "Maze" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA902211D3FBB3F001103DA /* Debug */,
+				8FA902221D3FBB3F001103DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA902231D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "MazeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA902241D3FBB3F001103DA /* Debug */,
+				8FA902251D3FBB3F001103DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FA902261D3FBB3F001103DA /* Build configuration list for PBXNativeTarget "MazeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FA902271D3FBB3F001103DA /* Debug */,
+				8FA902281D3FBB3F001103DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FA901EC1D3FBB3F001103DA /* Project object */;
+}
