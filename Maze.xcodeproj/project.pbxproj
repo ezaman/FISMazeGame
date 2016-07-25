@@ -7,14 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8F66AD6B1D4070A3001BD45C /* the_hound.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6A1D4070A3001BD45C /* the_hound.png */; };
-		8F66AD6D1D4074EE001BD45C /* white_walker.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6C1D4074EE001BD45C /* white_walker.png */; };
-		8F66AD6F1D4077BC001BD45C /* cersei.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD6E1D4077BC001BD45C /* cersei.png */; };
-		8F66AD711D4077C3001BD45C /* dany.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD701D4077C3001BD45C /* dany.png */; };
-		8F66AD731D40784F001BD45C /* whiteWalkerHands.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD721D40784F001BD45C /* whiteWalkerHands.png */; };
-		8F66AD751D4079A9001BD45C /* littleFinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD741D4079A9001BD45C /* littleFinger.jpg */; };
-		8F66AD771D407CB7001BD45C /* drogon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD761D407CB7001BD45C /* drogon.png */; };
-		8F66AD791D407D61001BD45C /* throne.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F66AD781D407D61001BD45C /* throne.png */; };
 		8FA901F81D3FBB3F001103DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA901F71D3FBB3F001103DA /* AppDelegate.swift */; };
 		8FA901FA1D3FBB3F001103DA /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FA901F91D3FBB3F001103DA /* GameScene.sks */; };
 		8FA901FC1D3FBB3F001103DA /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA901FB1D3FBB3F001103DA /* GameScene.swift */; };
@@ -22,8 +14,10 @@
 		8FA902011D3FBB3F001103DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA901FF1D3FBB3F001103DA /* Main.storyboard */; };
 		8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902021D3FBB3F001103DA /* Assets.xcassets */; };
 		8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */; };
-		8FA902111D3FBB3F001103DA /* MazeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA902101D3FBB3F001103DA /* MazeTests.swift */; };
 		8FA9021C1D3FBB3F001103DA /* MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */; };
+		8FB79D911D456E7B00CB399F /* Walls.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FB79D901D456E7B00CB399F /* Walls.sks */; };
+		8FB79D931D45719900CB399F /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FB79D921D45719900CB399F /* Room.sks */; };
+		8FB79D951D4583EB00CB399F /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB79D941D4583EB00CB399F /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +38,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8F66AD6A1D4070A3001BD45C /* the_hound.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = the_hound.png; sourceTree = "<group>"; };
-		8F66AD6C1D4074EE001BD45C /* white_walker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = white_walker.png; sourceTree = "<group>"; };
-		8F66AD6E1D4077BC001BD45C /* cersei.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cersei.png; sourceTree = "<group>"; };
-		8F66AD701D4077C3001BD45C /* dany.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dany.png; sourceTree = "<group>"; };
-		8F66AD721D40784F001BD45C /* whiteWalkerHands.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteWalkerHands.png; sourceTree = "<group>"; };
-		8F66AD741D4079A9001BD45C /* littleFinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = littleFinger.jpg; sourceTree = "<group>"; };
-		8F66AD761D407CB7001BD45C /* drogon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drogon.png; sourceTree = "<group>"; };
-		8F66AD781D407D61001BD45C /* throne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = throne.png; sourceTree = "<group>"; };
 		8FA901F41D3FBB3F001103DA /* Maze.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Maze.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA901F71D3FBB3F001103DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8FA901F91D3FBB3F001103DA /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -62,11 +48,12 @@
 		8FA902051D3FBB3F001103DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8FA902071D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA9020C1D3FBB3F001103DA /* MazeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8FA902101D3FBB3F001103DA /* MazeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeTests.swift; sourceTree = "<group>"; };
-		8FA902121D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FA902171D3FBB3F001103DA /* MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeUITests.swift; sourceTree = "<group>"; };
 		8FA9021D1D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FB79D901D456E7B00CB399F /* Walls.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Walls.sks; sourceTree = "<group>"; };
+		8FB79D921D45719900CB399F /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
+		8FB79D941D4583EB00CB399F /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,18 +106,13 @@
 			children = (
 				8FA901F71D3FBB3F001103DA /* AppDelegate.swift */,
 				8FA901F91D3FBB3F001103DA /* GameScene.sks */,
+				8FB79D901D456E7B00CB399F /* Walls.sks */,
+				8FB79D921D45719900CB399F /* Room.sks */,
 				8FA901FB1D3FBB3F001103DA /* GameScene.swift */,
+				8FB79D941D4583EB00CB399F /* MenuScene.swift */,
 				8FA901FD1D3FBB3F001103DA /* GameViewController.swift */,
 				8FA901FF1D3FBB3F001103DA /* Main.storyboard */,
 				8FA902021D3FBB3F001103DA /* Assets.xcassets */,
-				8F66AD6C1D4074EE001BD45C /* white_walker.png */,
-				8F66AD741D4079A9001BD45C /* littleFinger.jpg */,
-				8F66AD701D4077C3001BD45C /* dany.png */,
-				8F66AD781D407D61001BD45C /* throne.png */,
-				8F66AD721D40784F001BD45C /* whiteWalkerHands.png */,
-				8F66AD761D407CB7001BD45C /* drogon.png */,
-				8F66AD6E1D4077BC001BD45C /* cersei.png */,
-				8F66AD6A1D4070A3001BD45C /* the_hound.png */,
 				8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */,
 				8FA902071D3FBB3F001103DA /* Info.plist */,
 			);
@@ -140,8 +122,6 @@
 		8FA9020F1D3FBB3F001103DA /* MazeTests */ = {
 			isa = PBXGroup;
 			children = (
-				8FA902101D3FBB3F001103DA /* MazeTests.swift */,
-				8FA902121D3FBB3F001103DA /* Info.plist */,
 			);
 			path = MazeTests;
 			sourceTree = "<group>";
@@ -260,18 +240,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FB79D931D45719900CB399F /* Room.sks in Resources */,
 				8FA901FA1D3FBB3F001103DA /* GameScene.sks in Resources */,
-				8F66AD791D407D61001BD45C /* throne.png in Resources */,
-				8F66AD6D1D4074EE001BD45C /* white_walker.png in Resources */,
-				8F66AD6B1D4070A3001BD45C /* the_hound.png in Resources */,
 				8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */,
 				8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */,
-				8F66AD731D40784F001BD45C /* whiteWalkerHands.png in Resources */,
-				8F66AD751D4079A9001BD45C /* littleFinger.jpg in Resources */,
+				8FB79D911D456E7B00CB399F /* Walls.sks in Resources */,
 				8FA902011D3FBB3F001103DA /* Main.storyboard in Resources */,
-				8F66AD6F1D4077BC001BD45C /* cersei.png in Resources */,
-				8F66AD771D407CB7001BD45C /* drogon.png in Resources */,
-				8F66AD711D4077C3001BD45C /* dany.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FA901FC1D3FBB3F001103DA /* GameScene.swift in Sources */,
+				8FB79D951D4583EB00CB399F /* MenuScene.swift in Sources */,
 				8FA901FE1D3FBB3F001103DA /* GameViewController.swift in Sources */,
 				8FA901F81D3FBB3F001103DA /* AppDelegate.swift in Sources */,
 			);
@@ -306,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FA902111D3FBB3F001103DA /* MazeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
