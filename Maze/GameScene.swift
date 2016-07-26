@@ -2,7 +2,7 @@
 //  GameScene.swift
 //  Maze
 //
-//  Created by Ehsan Zaman on 7/20/16.
+//  Created by Ehsan Zaman on 7/18/16.
 //  Copyright (c) 2016 Ehsan Zaman. All rights reserved.
 //
 
@@ -12,37 +12,35 @@ import CoreMotion
 class GameScene: SKScene, SKPhysicsContactDelegate {
     
     let manager = CMMotionManager()
-    var jon = SKSpriteNode()
+    var dany = SKSpriteNode()
     var goal = SKSpriteNode()
-    var dragons: [SKSpriteNode] = []
+    //var dragons: [SKSpriteNode] = []
     
-   // let dragonSpeed: CGFloat = 50.0
-   //let jonSpeed: CGFloat = 300.0
-   //var lastTouch: CGPoint? = nil
     
     override func didMoveToView(view: SKView) {
         
         self.physicsWorld.contactDelegate = self
         
-        jon = self.childNodeWithName("jon") as! SKSpriteNode
+        dany = self.childNodeWithName("dany") as! SKSpriteNode
         
         manager.startAccelerometerUpdates()
-        manager.accelerometerUpdateInterval = 0.05
+        manager.accelerometerUpdateInterval = 0.1
         manager.startAccelerometerUpdatesToQueue(NSOperationQueue.mainQueue()){
             (data, error) in
             
-            self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!) * 8, CGFloat((data?.acceleration.y)!) * 8)
+            self.physicsWorld.gravity = CGVectorMake(CGFloat((data?.acceleration.x)!) * 6, CGFloat((data?.acceleration.y)!) * 5)
         
         }
-        
         
         goal = self.childNodeWithName("goal") as! SKSpriteNode
         
     }
     
+//function for when the player makes contact with the end destination, the throne
+    
     func didBeginContact(contact: SKPhysicsContact) {
-        var bodyA = contact.bodyA
-        var bodyB = contact.bodyB
+        let bodyA = contact.bodyA
+        let bodyB = contact.bodyB
        
         if bodyA.categoryBitMask == 1 && bodyB.categoryBitMask == 2 || bodyA.categoryBitMask == 2 && bodyB.categoryBitMask == 1 {
             gameOver(true)

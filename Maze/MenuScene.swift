@@ -15,7 +15,7 @@ class MenuScene: SKScene {
         self.backgroundColor = SKColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 1.0)
         
         let label = SKLabelNode(text: "Winter is here. Try Again.")
-        label.fontName = "AvenirNext-Bold"
+        label.fontName = "Andale Mono"
         label.fontSize = 55
         label.fontColor = UIColor.whiteColor()
         label.position = CGPointMake(CGRectGetMidX(self.frame), CGRectGetMidY(self.frame))

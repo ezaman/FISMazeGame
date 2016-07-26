@@ -15,8 +15,6 @@
 		8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902021D3FBB3F001103DA /* Assets.xcassets */; };
 		8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FA902041D3FBB3F001103DA /* LaunchScreen.storyboard */; };
 		8FA9021C1D3FBB3F001103DA /* MazeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */; };
-		8FB79D911D456E7B00CB399F /* Walls.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FB79D901D456E7B00CB399F /* Walls.sks */; };
-		8FB79D931D45719900CB399F /* Room.sks in Resources */ = {isa = PBXBuildFile; fileRef = 8FB79D921D45719900CB399F /* Room.sks */; };
 		8FB79D951D4583EB00CB399F /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FB79D941D4583EB00CB399F /* MenuScene.swift */; };
 /* End PBXBuildFile section */
 
@@ -51,8 +49,6 @@
 		8FA902171D3FBB3F001103DA /* MazeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MazeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FA9021B1D3FBB3F001103DA /* MazeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MazeUITests.swift; sourceTree = "<group>"; };
 		8FA9021D1D3FBB3F001103DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8FB79D901D456E7B00CB399F /* Walls.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Walls.sks; sourceTree = "<group>"; };
-		8FB79D921D45719900CB399F /* Room.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Room.sks; sourceTree = "<group>"; };
 		8FB79D941D4583EB00CB399F /* MenuScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -106,8 +102,6 @@
 			children = (
 				8FA901F71D3FBB3F001103DA /* AppDelegate.swift */,
 				8FA901F91D3FBB3F001103DA /* GameScene.sks */,
-				8FB79D901D456E7B00CB399F /* Walls.sks */,
-				8FB79D921D45719900CB399F /* Room.sks */,
 				8FA901FB1D3FBB3F001103DA /* GameScene.swift */,
 				8FB79D941D4583EB00CB399F /* MenuScene.swift */,
 				8FA901FD1D3FBB3F001103DA /* GameViewController.swift */,
@@ -240,11 +234,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8FB79D931D45719900CB399F /* Room.sks in Resources */,
 				8FA901FA1D3FBB3F001103DA /* GameScene.sks in Resources */,
 				8FA902061D3FBB3F001103DA /* LaunchScreen.storyboard in Resources */,
 				8FA902031D3FBB3F001103DA /* Assets.xcassets in Resources */,
-				8FB79D911D456E7B00CB399F /* Walls.sks in Resources */,
 				8FA902011D3FBB3F001103DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
